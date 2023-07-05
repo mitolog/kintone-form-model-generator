@@ -1,5 +1,5 @@
 import { join } from "path";
-import { Record } from "@kintone/rest-api-client/lib/client/types";
+import { Record } from "@kintone/rest-api-client/lib/src/client/types";
 import {
   ID,
   RecordNumber,
@@ -29,7 +29,7 @@ import {
   RichText,
   MultiLineText,
   Calc,
-} from "@kintone/rest-api-client/lib/KintoneFields/types/field";
+} from "@kintone/rest-api-client/lib/src/KintoneFields/types/field";
 import { createClientConfig } from "./client";
 
 interface FieldTestInterface extends Record {

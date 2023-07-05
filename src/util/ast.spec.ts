@@ -9,7 +9,7 @@ import ts, { factory as f } from "typescript";
 describe("stringer", () => {
   test("stringify", () => {
     const fieldImportStringLiteral = f.createStringLiteral(
-      "@kintone/rest-api-client/lib/KintoneFields/types/field"
+      "@kintone/rest-api-client/lib/src/KintoneFields/types/field"
     );
     const idTypeIdentifier = f.createIdentifier("ID");
     const interfaceNameIdentifier = f.createIdentifier("InterfaceName");
@@ -94,7 +94,7 @@ describe("stringer", () => {
 
     expect(stringer(nodes)).toBe(
       `
-import { ID, Subtable, SingleLineText } from "@kintone/rest-api-client/lib/KintoneFields/types/field";
+import { ID, Subtable, SingleLineText } from "@kintone/rest-api-client/lib/src/KintoneFields/types/field";
 export interface InterfaceName {
     "idField": ID;
     "subTableField": Subtable<{

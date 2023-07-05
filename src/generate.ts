@@ -12,10 +12,10 @@ import { getLogger } from "log4js";
 const logger = getLogger();
 const cliLogger = getLogger("cli");
 
-const kintoneRecordImportPath = "@kintone/rest-api-client/lib/client/types";
+const kintoneRecordImportPath = "@kintone/rest-api-client/lib/src/client/types";
 const kintoneRecordTypeName = "Record";
 const kintoneFieldImportPath =
-  "@kintone/rest-api-client/lib/KintoneFields/types/field";
+  "@kintone/rest-api-client/lib/src/KintoneFields/types/field";
 const simpleTypeMappings: Record<string, string> = {
   RECORD_NUMBER: "RecordNumber",
   CREATOR: "Creator",

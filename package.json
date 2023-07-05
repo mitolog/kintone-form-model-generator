@@ -32,7 +32,7 @@
     "dev": "ts-node ./src/index.ts"
   },
   "dependencies": {
-    "@kintone/rest-api-client": "^2.0.31",
+    "@kintone/rest-api-client": "^4.0.2",
     "log4js": "^6.3.0",
     "yargs": "^17.3.1"
   },

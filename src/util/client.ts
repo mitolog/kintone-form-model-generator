@@ -1,5 +1,5 @@
 import { KintoneRestAPIClient } from "@kintone/rest-api-client";
-import { App } from "@kintone/rest-api-client/lib/client/types/app";
+import { App } from "@kintone/rest-api-client/lib/src/client/types/app";
 import { PathLike, readFileSync } from "fs";
 import { getLogger } from "log4js";
 import { env } from "process";

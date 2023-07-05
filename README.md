@@ -35,7 +35,7 @@ kintone-form-model-generator generate --app-ids=1,5,10
 By default, files are generated in the `out/` directory.
 
 ```ts:example.ts
-import { ID, Revision } from "@kintone/rest-api-client/lib/KintoneFields/types/field";
+import { ID, Revision } from "@kintone/rest-api-client/lib/src/KintoneFields/types/field";
 
 export interface KintoneApp1Record {
   /**
